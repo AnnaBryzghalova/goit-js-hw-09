@@ -70,7 +70,6 @@ function renderGalleryItem({ preview, original, description }) {
     <img
       class="gallery-image"
       src="${preview}"
-      data-source="${original}"
       alt="${description}"
     />
   </a>
@@ -85,7 +84,6 @@ const gallery = document.querySelector('ul.gallery');
 gallery.insertAdjacentHTML('beforeend', renderGalleryItems(images));
 
 import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const slbConfig = {
   captionsData: 'alt',

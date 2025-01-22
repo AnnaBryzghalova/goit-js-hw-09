@@ -1,7 +1,9 @@
 @import 'simplelightbox/dist/simple-lightbox.min.css';
+@import 'simplelightbox.css';
+@import 'styles.css';
 
 .gallery {
-  margin: 24px auto;
+  margin: auto;
   width: 1128px;
   padding: 0;
   display: flex;
@@ -28,15 +30,4 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.basicLightbox__placeholder > img:first-child:last-child {
-  width: 1112px;
-  height: 640px;
-  object-fit: cover;
-  cursor: pointer;
-}
-
-.basicLightbox {
-  background-color: rgba(46, 47, 66, 0.8);
 }
