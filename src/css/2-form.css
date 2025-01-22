@@ -28,6 +28,9 @@
   height: calc(40px - 16px);
   border: none;
   background-image: url('data:image/svg+xml,<svg width="360" height="40" viewBox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" y="0.5" width="359" height="39" rx="3.5" stroke="%23808080" /></svg>');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .feedback-form input:hover {
